@@ -1,0 +1,1 @@
+The purpose of the python_principles project is to track completed code based on the challenges found at https://pythonprinciples.com/challenges/.
