@@ -1,6 +1,6 @@
 def capital_indexes(word):
     word = list(word)
-    capitals = [word.index(i) for i in word if i.isupper()]
+    capitals = [count for count,ele in enumerate(word) if ele.isupper()]
     return capitals
 
 capital_indexes("hELlO")
