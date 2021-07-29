@@ -8,3 +8,6 @@ def is_anagram(word1, word2):
     word1 = word1.lower()
     word2 = word2.lower()
     return set([(i,word1.count(i)) for i in word1]) == set([(i,word2.count(i)) for i in word2])
+
+def is_anagram(word1, word2):
+    return sorted(word1.lower()) == sorted(word2.lower())
